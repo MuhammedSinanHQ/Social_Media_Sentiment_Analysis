@@ -1,14 +1,16 @@
-# Social Media Sentiment Analysis using Deep Learning
+# Social Media Sentiment Analysis using LSTM
 
-End-to-end deep learning project that trains an LSTM network on the Sentiment140 dataset and deploys a web-based sentiment analyzer using Streamlit.
+End-to-end deep learning sentiment analysis system trained on the Sentiment140 dataset and deployed as a Streamlit web application.
+
+Live Demo:
+https://social-media-sentiment-analysis-1.onrender.com
 
 ## Features
-- Real-world dataset (Sentiment140)
-- Text preprocessing with NLTK
-- LSTM neural network
-- 77% test accuracy
-- Interactive web application
-- Real-time predictions
+- LSTM based sentiment classifier
+- Trained on 1.6M tweets (Sentiment140)
+- Real-time prediction
+- Confidence score
+- Deployed on Render
 
 ## Tech Stack
 - Python
@@ -18,11 +20,11 @@ End-to-end deep learning project that trains an LSTM network on the Sentiment140
 - Streamlit
 
 ## How to Run Locally
+git clone https://github.com/YOUR_USERNAME/Social_Media_Sentiment_Analysis.git
 
-pip install -r requirements.txt  
-python prepare_data.py  
-python main.py  
-streamlit run streamlit_app.py  
+cd Social_Media_Sentiment_Analysis
+python -m venv venv
+source venv/bin/activate # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run streamlit_app.py
 
-## Sample Output
-![App Screenshot](screenshots/app.png)
