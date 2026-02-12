@@ -22,9 +22,9 @@ https://social-media-sentiment-analysis-1.onrender.com
 ## How to Run Locally
 git clone https://github.com/YOUR_USERNAME/Social_Media_Sentiment_Analysis.git
 
-cd Social_Media_Sentiment_Analysis
-python -m venv venv
-source venv/bin/activate # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run streamlit_app.py
+- cd Social_Media_Sentiment_Analysis
+- python -m venv venv
+- source venv/bin/activate # Windows: venv\Scripts\activate
+- pip install -r requirements.txt
+- streamlit run streamlit_app.py
 
